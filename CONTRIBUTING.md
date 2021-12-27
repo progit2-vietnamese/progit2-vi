@@ -1,44 +1,43 @@
-# Contributing to Pro Git (2nd Edition)
+# Đóng góp cho Pro Git (Phiên bản thứ 2)
 
-## Licensing your work to us
+## Giấy phép công việc của bạn cho chúng tôi
 
-When you open a pull request, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+Khi bạn tạo một yêu cầu lấy kho dữ liệu về, bạn đã đồng ý với việc tuân thủ vớ [Giấy phép của dự án](LICENSE.asc).
+Ngoài ra, bạn đồng ý cấp giấy phép cho bản dịch của mình cho các mục đích in ấn trong tương lai cho @ben và @schacon.
+Nếu những thay đổi của bạn xuất hiện trong một bản in ấn, bạn sẽ được đưa vào [Danh sách các cộng tác viên](book/contributors.asc).
+## Báo cáo một vẫn đề
 
-## Signaling an Issue
+Tìm kiếm các vấn đề tương tự, trước khi bạn tạo một báo cáo vấn đề mới.
 
-Search for similar issues, before creating a new issue.
+Ngoài ra, nếu vấn đề đó đã được nêu trên trang git-scm.com, kiểm tra lại rằng vấn đề đó vẫn tồn tại trong bản pdf.
+Vấn đề có thể đã được sửa trong các tập tin nguồn, nhưng chúng chưa được cập nhật vào trang git-scm.com.
 
-Also, if this issue has been spotted on the git-scm.com site, cross-check that the issue is present in the pdf version.
-The issue may have already been corrected in the source files, but not yet deployed to the git-scm.com site.
+## Các đính chính nhỏ
 
-## Small Corrections
+Phân in sai(Errata) và những giải thích đơn giản hơn sẽ được chấp nhận nếu chúng tôi đồng ý rằng chúng sẽ cải thiện nội dung của cuốn sách.
+Bạn có thể mở một báo cáo vấn đề(issue) và chúng ta có thể thảo luận làm cách nào hoặc nếu vấn đề đó cần được giải quyết.
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so that we can discuss how or if the issue needs to be addressed.
+Nếu bạn chưa từng làm chúng trước đây, [Hướng dẫn quy trình](https://guides.github.com/introduction/flow/) sẽ có ích cho bạn.
 
-If you've never done this before, the [flow guide](https://guides.github.com/introduction/flow/) might be useful.
+## Viết lại phần lớn
 
-## Large Rewrites
+Mở một báo cáo vấn đề cho việc thảo luận trước khi bạn bắt đầu viết lại.
+Một bản viết lại lớn nội dung sách thường có xu hướng rất chủ quan của người viết, thường chỉ làm rõ mọi thứ cho một lượng nhỏ độc giả.
+Các biên tập viên của bản thảo Chuyên nghiệp đã xem xét các nội dung này rất nhiều lần.
+Không chắc rằng cách hành văn của bạn sẽ *hay hơn* đáng kể đến mức thay đổi được phần lớn nội dung văn bản.
 
-Open an issue for discussion before you start.
-A large rewrite tends to be very subjective, often only clarifying things for a small amount of readers.
-Professional copy editors have already reviewed this content multiple times.
-It's unlikely that your prose is going to be *so* much better that it's worth changing large portions of text.
+## Các minh hoạ
 
-## Figures
+Các ảnh trong cuốn sách này được tạo ra bằng [Phác hoạ 3](https://www.sketchapp.com/) với [đã bao gồm tập tin sổ phác thảo](diagram-source/progit.sketch).
 
-The images in this book are generated using [Sketch 3](https://www.sketchapp.com/), with the [included sketchbook file](diagram-source/progit.sketch).
+Để tạo một minh hoạ:
 
-To create a figure:
+1. thêm một trang vào sketchbook.
+Sử dụng các ký hiệu kèm theo nếu có thể.
+2. Thêm một phần "slice" trên trang của bạn.
+Đặt tên cho lát cắt(slice) sao cho trùng với tên tệp PNG đích, liên quan đến thư mục gốc của thư mục nguồn.
+3. Cài đặt cho lát cắt(slice) của bạn để xuất ra với "800w".
 
-1. Add a page to the sketchbook.
-Use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Name the slice so that it matches the destination PNG filename, relative from the root of the source directory.
-3. Set your slice to export at "800w".
+## Các bản dịch
 
-## Translations
-
-If you want to contribute to translating Pro Git into your language, take a look at [TRANSLATING.md](TRANSLATING.md).
+Nếu bạn muốn đóng góp cho việc dịch cuốn sách Pro Git sang ngôn ngữ của bạn, xem qua [TRANSLATING.md](TRANSLATING.md).
