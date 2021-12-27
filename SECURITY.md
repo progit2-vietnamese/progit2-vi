@@ -1,5 +1,5 @@
-## Reporting a security issue
+## Báo cáo một vấn đề về bảo mật
 
-If you find any security issue or vulnerability, please email [ben@straub.cc](mailto:ben@straub.cc) with your report.
+Nếu bạn tìm thấy bất kỳ vấn dề nào về bảo mật hoặc điểm dễ bị tấn công, vui lòng liên hệ [ben@straub.cc](mailto:ben@straub.cc) với báo cáo của bạn.
 
-Do not open a issue on the `progit/progit2` repository or discuss the vulnerability in public.
+Không mở một báo cáo vấn đề trên kho lưu trữ `progit/progit2` hoặc thảo luận điểm dễ bị tấn công một cách công khai.
